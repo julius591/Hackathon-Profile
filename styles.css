@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: darkgrey;
+}
+
+/*Styling header*/
+h1{
+    text-align: center;
+    text-transform: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: larger;
+
+}
+
+.head img{
+    transition: 4s ease;
+}
+
+/*Styling About section*/
+.about{
+    font-family: Times New Roman;
+    text-align: center;
+}
+
+.about h2{
+    text-transform: none;
+    font-weight: bold;
+    font-size: larger;
+}
+
+/*Styling background section*/
+.background{
+    font-family: Times New Roman;
+    text-align: left;
+}
+
+.background h2{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.background a:hover{
+    background: transparent;
+    color: burlywood;
+}
+
+/*Styling interests section*/
+.interests{
+    font-family: Times New Roman;
+    text-align: center;
+}
+
+.interests h2{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.interests h3{
+    font-size: large;
+    font-weight: lighter;
+}
+
+/*Styling projects section*/
+.projects{
+    text-align: center;
+    font-family: Times New Roman;
+}
+
+.projects h2{
+    font-size: larger;
+}
+
+/*Styling image section*/
+.head img{
+    display: flex;                
+    justify-content: center;      
+    align-items: center; 
+}                      
+
+
+img {
+    max-width: 100%;              
+    height: auto;      
+}
+
+h2,h3{
+    text-align: left;
+    padding: 5px 0px;
+}
+
+p{
+    text-align: left;
+    padding: 10px 0px;
+}
+
+/*Styling the footer section*/
+.foot{
+    text-align: center;
+    list-style: none;
+    display: inline-block;
+    font-size: large;
+    font-style: italic;
+    align-items: center;
+}
+
+.foot a:hover{
+    background: transparent;
+    color: burlywood;
+}
